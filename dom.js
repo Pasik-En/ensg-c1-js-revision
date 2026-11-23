@@ -40,3 +40,14 @@ box.innerHTML = `
 //     fruit.style.color = "green";
 //     fruit.style.fontSize = "3.5rem";
 // });
+
+
+// Modifying DOM Elements
+const introElement = document.getElementById("intro");
+console.dir(introElement);
+
+function changeIntroTextContent() {
+    introElement.textContent = "Learning to modify the DOM is a crucial skill in JavaScript";
+}
+
+changeIntroTextContent();
